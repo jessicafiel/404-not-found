@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap");
+
+.main-title{
+    height: 25px;
+    width: 133px;
+    left: 77px;
+    top: 40px;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-align: left;
+}
+
+.image{
+    height: 414.2492370605469px;
+    width: 539.2236938476562px;
+    left: 77px;
+    top: 265px;
+    border-radius: 0px;
+    position: absolute;
+    left: 5.35%;
+    right: 57.21%;
+    top: 24.54%;
+    bottom: 37.11%;
+}
+
+
+.content-text{
+    text-align:center;
+    text-decoration: none;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 17px;
+    color: #333333;
+    float: right;
+}
+
+
+.button-back{
+    cursor: pointer;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 216px;
+    height: 68px;
+    background: #333333;
+    border: none;
+    margin-left:-10em;
+    font-family: Space Mono;
+    font-size: 14px;
+}
+
+.h2-text{
+    height: 190px;
+    width: 586px;
+    left: 735px;
+    top: 265px;
+    font-family: Space Mono;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    text-align: left;
+}
+
+.content{ 
+   margin-left: 5%;
+}
+
+.content-message{
+    height: 108px;
+    width: 381px;
+    left: 736px;
+    top: 491px;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    margin-left: 2em;
+}
+
+.p-footer{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    color: #333333;
+    text-align: center;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    padding-top: 50em;
+}
+
+@media only screen and (max-width: 600px){
+    .image{
+        width: 200px;
+        height:200px;
+        margin-left: 5em;
+        margin-top: -3em;
+  }
+    .h2-text{
+        height: 190px;
+        width: 586px;
+        left: 735px;
+        top: 265px;
+        font-family: Space Mono;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+        text-align: center;
+        margin-top: 4em;
+    }
+    .content-message{ 
+        height: 108px;
+        width: 381px;
+        left: 736px;
+        top: 491px;
+        font-family: Space Mono;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        text-align: left;
+        margin-left: 10em;
+    }
+    .button-back{
+        margin-right: -25em;
+
+    }
+}
