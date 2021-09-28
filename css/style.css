@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace, Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #FFFFFF;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  min-height: 10vh;
+  display: flex;
+}
+
+header h1 {
+  margin-left: 77px;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+}
+
+main {
+  min-height: 80vh;
+  display: flex;
+}
+
+#main-content {
+  display: flex;
+  margin: 2rem auto;
+}
+
+#main-content  img {
+  width: 540px;
+  height: 447px;
+}
+
+#main-content #text-content {
+  margin-top: 2rem;
+  margin-left: 77px;
+}
+
+#main-content #text-content h2 {
+  width: 590px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  color: #333333;
+}
+
+#main-content #text-content p {
+  margin: 2rem 0;
+  width: 380px;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4F4F4F;
+}
+
+#main-content #text-content a {
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 14px 24px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-decoration: none;
+}
+
+#main-content #text-content a:hover {
+  cursor: pointer;
+}
+
+footer {
+  min-height: 10vh;
+  display: flex;
+}
+
+footer p {
+  margin: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
+
+
+@media screen and (max-width: 990px) {
+
+  header {
+    min-height: inherit;
+  }
+
+  header h1 {
+    margin-left: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+  }
+
+  main {
+    display: flex;
+    min-height: inherit;
+  }
+
+  #main-content {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #main-content img {
+    margin: auto;
+    width: 280px;
+    height: 238px;
+  }
+
+  #main-content #text-content {
+    margin-left: 24px;
+  }
+
+  #main-content #text-content h2 {
+    width: 340px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    color: #333333;
+  }
+
+  #main-content #text-content p {
+    width: 328px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+  }
+
+  footer {
+    min-height: inherit;
+  }
+}
