@@ -1,2 +1,4 @@
 # 404-not-found
-Página responsiva desenvolvida com base nos requisitos do desafio oferecido pela @devchallenge-io
+Página responsiva desenvolvida com base nos requisitos do desafio oferecido pela @devchallenge-io, utilizando html e css
+
+ 
